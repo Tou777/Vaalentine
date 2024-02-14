@@ -45,7 +45,7 @@ const timerToShowProposal=()=>{
 }
 function noBtnOnClick() {
     count++;
-    if(count<10){
+    if(count<8){
         incrementYesBtn();
         changeNoResponse();
     }
