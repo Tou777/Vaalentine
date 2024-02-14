@@ -52,6 +52,7 @@ function noBtnOnClick() {
     else{
         document.getElementById('noButton').style.backgroundColor="chartreuse";
         document.getElementById('noButton').innerText="Yes";
+        document.getElementById('noButton').addEventListener('click',yesBtnOnClick);
     }
     
 }
